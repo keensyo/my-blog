@@ -35,7 +35,7 @@ jobs:
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.DEPLOYBLOGS }}
           external_repository: keensyo/keensyo.github.io
           publish_dir: ./public
           publish_branch: main
