@@ -1,7 +1,18 @@
 ---
 title: "ASP.NET CoreでWebAPIをつくるチュートリアルをやった"
-date: "2021-04-11"
+date: "2021-04-29"
 ---
+
+**2021/4/29 追記。** </br>
+ここで書いたハマりポイントは、手順の見落としだったことがわかりました。</br>
+Webプロジェクトの作成のセクションで、Visual Studio for Macタブを開くと一番下に以下のコマンドが記載されていましたが、スルーしてしまっていました。</br>
+
+```C#
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+```
+
+GitHubのissueもクローズしました。</br>
+**追記ここまで。**
 
 仕事でC#でAPIを書くことになるのでやってみました。</br>
 [チュートリアル: ASP.NET Core で Web API を作成する](https://docs.microsoft.com/ja-jp/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)
