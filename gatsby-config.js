@@ -1,8 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `keensyo's blog`,
+    title: `What I Thought`,
+    author: {
+        name: 'keensyo'
+    },
     description: `@keensyoのブログです。`,
     siteUrl: `https://keensyo.github.io/`,
+    social: {
+        twitter: 'keensyo',
+    }
   },
   plugins: [
     {

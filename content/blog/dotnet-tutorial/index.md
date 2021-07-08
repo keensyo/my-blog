@@ -7,7 +7,7 @@ date: "2021-04-29"
 ここで書いたハマりポイントは、手順の見落としだったことがわかりました。</br>
 Webプロジェクトの作成のセクションで、Visual Studio for Macタブを開くと一番下に以下のコマンドが記載されていましたが、スルーしてしまっていました。</br>
 
-```C#
+```c#
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
 ```
 
