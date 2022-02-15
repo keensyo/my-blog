@@ -2,7 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 const Bio = () => {
-const data = useStaticQuery(graphql`
+const data = useStaticQuery<GatsbyTypes.BioQuery>(graphql`
     query BioQuery {
     site {
         siteMetadata {
