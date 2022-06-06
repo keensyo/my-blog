@@ -20,7 +20,6 @@ const Layout = ({ location, title, children }) => {
     )
   }
 
-// TODO：footerをつくる
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
